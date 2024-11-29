@@ -1,0 +1,62 @@
+/* Fondo gradiente aplicado a toda la página */
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 55, 1) 45%, rgba(0, 212, 255, 1) 100%);
+    height: 100%; /* Extiende el fondo a toda la página */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina rellenos */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    color: white; /* Texto blanco para mejor visibilidad */
+    overflow-x: hidden; /* Evita desplazamiento horizontal */
+}
+
+/* Sección Hero */
+.hero-section {
+    padding: 50px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilo para los títulos y descripciones */
+h1, h2 {
+    text-align: center; /* Centrado */
+    margin: 10px 0; /* Espaciado */
+}
+
+p {
+    text-align: center; /* Centrado */
+    margin: 10px 0; /* Espaciado */
+}
+
+/* Ajusta la posición de la imagen */
+.hero-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%; /* Ajusta el tamaño de la imagen */
+    display: block; /* Centra la imagen */
+}
+
+/* Estilo para los botones */
+.hero-buttons .btn-primary {
+    background-color: #0fb900; /* Color verde */
+    color: white; /* Texto blanco */
+    border: none;
+}
+
+.hero-buttons .btn-primary:hover {
+    background-color: #cc0000; /* Color rojo al pasar el mouse */
+    border: none;
+}
+
+/* Sección de características */
+.row {
+    margin-top: 30px; /* Espaciado entre filas */
+    text-align: center; /* Centrado de los íconos y texto */
+}
+
+.row .col-3 {
+    margin-bottom: 30px; /* Espaciado entre columnas */
+}
+
+i {
+    font-size: 40px; /* Tamaño del ícono */
+    margin-bottom: 10px; /* Espaciado con el texto */
+}
